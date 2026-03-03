@@ -1,0 +1,26 @@
+(kicad_project)
+version 7.0
+(kicad_pcb)
+  layers
+    - silkscreen_top
+    - silkscreen_bottom
+    - F.Cu
+    - B.Cu
+    - F.Adhes
+    - B.Adhes
+    - Dwgs.User
+  net_classes
+    - name: Default
+      track_width: 0.15
+      clearance: 0.15
+      via_diam: 0.3
+    - name: Power
+      track_width: 0.25
+      clearance: 0.15
+      via_diam: 0.3
+  design_rules
+    minimum_track_width: 0.15
+    minimum_clearance: 0.15
+  stackup
+    layers: 4
+    layer_type: "signal"
